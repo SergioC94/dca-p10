@@ -32,18 +32,7 @@ int main() {
 			printf(_("Result:"));
 			cout << cal.add();
 			break;
-		case 2:
-			printf(_("Result:"));
-			cout << cal.sub();
-			break;
-		case 3:
-			printf(_("Result:"));
-			cout << cal.mul();
-			break;
-		case 4:
-			printf(_("Result:"));
-			cout << cal.div();
-			break;
+
 		}
 
 	} while (choice >= 1 && choice <= 4);
