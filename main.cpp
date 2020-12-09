@@ -15,7 +15,7 @@ int main() {
 	
 	int choice;
 	Calculator cal; // simple calculator object
-	printf(_("Hola soy la calculadora"));
+	printf(_("Hola soy la calculadoraa"));
 	printf(_("Enter 1 add 2 Numbers"));
 	printf(_("\nEnter 2 Subtract 2 Numbers"));
 	printf(_("\nEnter 3 Multiply 2 Numbers"));
@@ -32,7 +32,18 @@ int main() {
 			printf(_("Result:"));
 			cout << cal.add();
 			break;
-
+		case 2:
+			printf(_("Result:"));
+			cout << cal.sub();
+			break;
+		case 3:
+			printf(_("Result:"));
+			cout << cal.mul();
+			break;
+		case 4:
+			printf(_("Result:"));
+			cout << cal.div();
+			break;
 		}
 
 	} while (choice >= 1 && choice <= 4);
