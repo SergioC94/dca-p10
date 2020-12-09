@@ -15,7 +15,7 @@ int main() {
 	
 	int choice;
 	Calculator cal; // simple calculator object
-	
+	printf(_("Hola soy la calculadora"));
 	printf(_("Enter 1 add 2 Numbers"));
 	printf(_("\nEnter 2 Subtract 2 Numbers"));
 	printf(_("\nEnter 3 Multiply 2 Numbers"));
