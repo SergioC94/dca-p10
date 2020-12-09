@@ -48,6 +48,7 @@ int main() {
 
 	} while (choice >= 1 && choice <= 4);
 
+printf(_("\nAdios\n"));
 	return 0;
 
 }
